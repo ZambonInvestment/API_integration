@@ -1,3 +1,4 @@
+pip install requirements
 import functions_framework
 @functions_framework.http
 def hello_http(request):
@@ -5,4 +6,3 @@ def hello_http(request):
     #porcess
     data_to_send="processed data"
     return data_to_send
-    
